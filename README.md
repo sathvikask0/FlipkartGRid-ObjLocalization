@@ -25,3 +25,5 @@ Firstly, the images have been separated based on names in training.csv and test.
 
 
 Afterwards, we have divided the dataset into training set and validation set( for setting parameters). We trained the VGG-16 network(randomly initialized) on the training set and checked on validation set( train_validation.py). Finally after setting the parameters we trained the network on entire available dataset( train + validation) ( final.py).
+
+Have Achieved a score of 0.89 IoU.
